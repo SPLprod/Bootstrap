@@ -1,0 +1,56 @@
+.navbar-toggler, .btn-warning {
+    background-color: #a77428;
+}
+
+.navbar-toggler-icon {
+    filter: invert(1);
+}
+
+.bgimg {
+    background-image: url("../Img/banner-buisnessman.jpg");
+    background-size: cover;
+}
+
+.rounded-circle {
+    width: 10em;
+    height: 10em;
+    margin: auto;
+    object-fit: cover;
+}
+
+@media screen and (min-width: 768px) {
+    .border {
+        width: 30%;
+        gap: 3%;
+    }
+
+    .voir {
+        width: 5.5em;
+    }
+
+    .form {
+        width: 75%;
+        margin: auto;
+    }
+
+    .w-100 {
+        width: 10em;
+        height: 10em;
+    }
+    
+}
+
+@media screen and (min-width: 1024px) {
+    .employ {
+        width: 45%;
+    }
+
+    .p-5 {
+        padding: 5.5em !important;
+    }
+
+    .w-100 {
+        width: auto;
+        height: 50%;
+    }
+}

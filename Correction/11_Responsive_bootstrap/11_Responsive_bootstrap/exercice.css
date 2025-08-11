@@ -1,0 +1,37 @@
+body {
+	font-family: "Lucida Sans", "Lucida Sans Regular";
+}
+
+header {
+	background-color: #9933cc;
+}
+
+h1 {
+	text-indent: -400px;
+}
+
+main {
+	height: 100vh;
+}
+
+.navbar li {
+	padding-right: 7rem !important;
+}
+
+img {
+	width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+	main {
+		height: fit-content;
+	}
+
+	header {
+		background-color: red !important;
+	}
+
+	.img {
+		width: 50%;
+	}
+}

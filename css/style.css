@@ -2,10 +2,6 @@ img {
     width: 22.5%;
 }
 
-header {
-    background-color: #dc3545;
-}
-
 @media screen and (max-width: 768px) {
     img {
     width: 47.5%;
@@ -15,8 +11,8 @@ header {
 }
 
 @media screen and (min-width: 1024px) {
-    header{
-        background-color: blueviolet !important;
+    .bg-danger{
+        background-color: #9a33cc !important;
     }
 
 }

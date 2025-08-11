@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agence Immobilière</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/Immo.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand text-white fw-semibold" href="#">Agence Immo</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link text-secondary" aria-current="page" href="#">Home</a>
+                    <a class="nav-link text-secondary" href="#">Features</a>
+                    <a class="nav-link text-secondary" href="#">Pricing</a>
+                    <a class="nav-link text-secondary" href="#">Pricing</a>
+                </div>
+                </div>
+            </div>
+        </nav>
+        <div class="bgimg p-5 position-relative">
+            <h1 class="text-center text-white">Bienvenue à Agence Immo</h1>
+            <p class="text-center text-white">Nous aidons à trouver la maison de vos rêves</p>
+            <button type="button" class="btn btn-warning border-0 mt-2 text-white position-absolute start-50 translate-middle">Voir les offres</button>
+        </div>
+    </header>
+
+    <main class="w-75 m-auto">
+        <section class="bg-dark p-2 text-center mt-4 mb-3"><h2 class="text-warning">Nos ventes en ce moments</h2></section>
+
+        <div class="d-flex flex-wrap justify-content-between">
+            <div class="border border-1 border-secondary-subtle rounded my-2">
+                <img class="w-100" src="Img/architecture-2.jpg" alt="Maison n°1">
+                <section class="p-3">
+                    <h3>Maison 1</h3>
+                    <p>Une belle maison avec 3 chambres et un grand jardin</p>
+                    <button class="btn btn-warning border border-0 text-white voir">Voir plus</button>
+                </section>
+            </div>
+            <div class="border border-1 border-secondary-subtle rounded my-2">
+                <img class="w-100" src="Img/architecture-3.jpg" alt="Maison n°2">
+                <section class="p-3">
+                    <h3>Maison 2</h3>
+                    <p>Appartement moderne avec 2 chambres et une vue sur la ville</p>
+                    <button class="btn btn-warning border border-0 text-white voir">Voir plus</button>
+                </section>
+            </div>
+            <div class="border border-1 border-secondary-subtle rounded my-2">
+                <img class="w-100" src="Img/architecture-1.jpg" alt="Maison n°3">
+                <section class="p-3">
+                    <h3>Maison 3</h3>
+                    <p>Villa de luxe avec piscine et rooftop avec vue sur la mer</p>
+                    <button class="btn btn-warning border border-0 text-white voir">Voir plus</button>
+                </section>
+            </div>
+        </div>
+
+        <section class="bg-dark p-2 my-4"><h2 class="text-warning">Rencontrez notre équipe</h2></section>
+        
+        <div class="d-flex flex-wrap justify-content-center">
+            <div class="text-center employ">
+                <img class="rounded-circle" src="Img/worker-1-1.jpg" alt="">
+                <h3>Agent immobilier</h3>
+                <h4>Jean Paul</h4>
+                <p>Joined us in 2020</p>
+            </div>
+            <div class="text-center employ">
+                <img class="rounded-circle" src="Img/worker-1-3.jpg" alt="">
+                <h3>Agent immobilier</h3>
+                <h4>Christian</h4>
+                <p>Joined us in 2019</p>
+            </div>
+            <div class="text-center employ">
+                <img class="rounded-circle" src="Img/worker-1-5.jpg" alt="">
+                <h3>Agent immobilier</h3>
+                <h4>Philipe</h4>
+                <p>Joined us in 2005</p>
+            </div>
+            <div class="text-center employ">
+                <img class="rounded-circle" src="Img/worker-2-2.jpg" alt="">
+                <h3>Agente immobilier</h3>
+                <h4>Jeanette</h4>
+                <p>Joined us in 2020</p>
+            </div>
+            <div class="text-center employ">
+                <img class="rounded-circle" src="Img/worker-2-4.jpg" alt="">
+                <h3>Agente immobilier</h3>
+                <h4>Marie Chantal</h4>
+                <p>Joined us in 2011</p>
+            </div>
+            <div class="text-center employ">
+                <img class="rounded-circle" src="Img/worker-2-6.jpg" alt="">
+                <h3>Agente immobilier</h3>
+                <h4>Pauline</h4>
+                <p>Joined us in 2022</p>
+            </div>
+        </div>
+
+        <section class="bg-dark p-2 text-center my-4"><h2 class="text-warning">Contactez nous</h2></section>
+
+        <form class="mb-5 form">
+            <div class="mb-3">
+                <label for="exampleInputName" class="form-label">Nom</label>
+                <input type="text" class="form-control" id="exampleInputName" aria-describedby="nameHelp">
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputMessage1" class="form-label">Message</label>
+                <textarea type="text" class="form-control" id="exampleInputMessage1"></textarea>
+            </div>
+            <button type="submit" class="btn btn-warning text-white border-0">Submit</button>
+        </form>
+
+    </main>
+
+    <footer class="text-center">
+        <div class="bg-secondary p-3">
+            <section>
+                <h3>AGENCE IMMO</h3>
+                <p class="text-white">Votre partenaire de confiance pour trouver la maison parfaite.</p>
+            </section>
+            <section>
+                <h3>CONTACT</h3>
+                <p class="text-white">info@agenceimmo.com</p>
+                <p class="text-white">+33 1 23 45 67 89</p>
+                <p class="m-0 text-white">123 Rue de l'immobilier, Paris</p>
+            </section>
+        </div>
+
+        <section class="bg-dark p-4 text-white">© 2024 Agence Immo</section>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.min.js" integrity="sha384-7qAoOXltbVP82dhxHAUje59V5r2YsVfBafyUDxEdApLPmcdhBPg1DKg1ERo0BZlK" crossorigin="anonymous"></script>
+</body>
+</html>
